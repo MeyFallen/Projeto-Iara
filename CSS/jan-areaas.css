@@ -1,0 +1,25 @@
+.areas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+
+    background-color: #201341;
+    color: white;
+
+    border-radius: 10px;
+    text-align: center;
+}
+.card a {
+    color: #89ff2f;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
